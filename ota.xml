@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <Z00L>
-            <Filename>Nitrogen-OS-O-Z00L-20180413.zip</Filename>
+            <Filename>Nitrogen-OS-O-Z00L-20180412.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
