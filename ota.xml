@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <Z00L>
-            <Filename>Nitrogen-OS-O-Z00L-20180412.zip</Filename>
+            <Filename>Nitrogen-OS-O-Z00L-20180508.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download The Latest Build">http://qc4.androidfilehost.com/dl/FTjxVPSOxrQp17CPBQo6Mw/1523832621/673956719939834427/Nitrogen-OS-O-Z00L-20180413.zip</RomUrl>
+                description="Download The Latest Build">http://qc4.androidfilehost.com/dl/sQvWl8PNI7WUzaV2v5Br0g/1526004609/746163614322263208/Nitrogen-OS-O-Z00L-20180508.zip</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
