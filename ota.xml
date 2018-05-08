@@ -10,7 +10,7 @@
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="See The Latest Changelog"></ChangelogUrl>
+                description="See The Latest Changelog">https://github.com/nosz00l/OTA/raw/master/Changelogs/Changelog_Z00L.txt</ChangelogUrl>
             <PaypalUrl
                 id="paypal"
                 title="Donation"
