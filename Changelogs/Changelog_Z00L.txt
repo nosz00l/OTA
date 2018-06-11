@@ -1,277 +1,87 @@
 ====================
-     2018-05-08    
+     2018-06-11    
 ====================
 
- * bionic
-d4cc0a3  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * bootable/recovery
-369ab3a  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
  * build/make
-44a55a1  Revert "Revert "Add qcom_target and qcom_utils from LOS""  [mg712702]
-e985a2b  Revert "build: Add QCOM target-specific config"  [mg712702]
-852b0db  Merge pull request #1 from nitrogen- */o2  [Mrinal Ghosh]
-323fa8c  Revert "Add qcom_target and qcom_utils from LOS"  [mg712702]
-e1b6b41  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * build/soong
-724252d  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * device/oneplus/oneplus3
-3e3a985  op3: use stock ro.build.fingerprint to fix error "ro.build.fingerprint cannot exceed 91 bytes"  [xyyx]
+a0f5efc  Merge commit '6a7e0e0' into o2  [Mrinal Ghosh]
+6a7e0e0  Merge tag 'android-8.1.0_r32' into o2  [xyyx]
 
  * frameworks/av
-d792ffd  Merge pull request #1 from nitrogen- */o2  [Mrinal Ghosh]
-d6f41c4  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-f2e27c7  Revert "Refactor MediaPlayerBase's notify"  [xyyx]
+ae3217c  Camera: Add support for preview frame fd  [Susmitha Gummalla]
+a5aae21  libstagefright: encoder must exist when source starting  [Cong Jiajia]
+0e1312e  media: fix infinite wait at source for HAL1 based recording  [Uma Mehta]
+37d3134  stagefright: ACodec: Resolve empty vendor parameters usage  [Adrian DC]
+219dc15  Camera: fix use after disconnect error  [Yin-Chia Yeh]
+df55d74  libstagefright: Free buffers on observer died  [Manikanta Kanamarlapudi]
+c2c1184  Camera: check metadata type before releasing frame  [Milos Ratkovic]
+bd61161  camera/media: Support legacy HALv1 camera in mediaserver  [Simon Shields]
+84fd478  Merge tag 'android-8.1.0_r32' into o2  [xyyx]
 
  * frameworks/base
-0d01de5  Enable notifications led light by default [1/2]  [ezio84]
-ac36276  OMS: Dismantle FLAG_OVERLAY_TRUSTED check in isOverlayPackage  [Ivan Iskandar]
-6598bce  Battery icon: fix pct disappearing when switching off power saving  [ezio84]
-3767620  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
+fd8b5ef  Enable notifications led light by default [1/2]  [ezio84]
+8bf11f3  Merge tag 'android-8.1.0_r32' into o2  [xyyx]
 
  * frameworks/native
-ac67276  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * frameworks/opt/net/wifi
-65a495d  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
+1c64925  Merge tag 'android-8.1.0_r32' into o2  [xyyx]
 
  * frameworks/opt/telephony
-5c79aba  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
+ea7a166  Merge tag 'android-8.1.0_r32' into o2  [xyyx]
 
  * hardware/interfaces
-b753215  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * hardware/qcom/audio
-b656b70  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * hardware/qcom/display
-6121caf  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * hardware/qcom/gps
-80080ad  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * hardware/qcom/media
-af52711  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * hardware/ril
-f7ae79c  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * packages/apps/Bluetooth
-fdac063  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * packages/apps/DeskClock
-00b59a2  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * packages/apps/Messaging
-ab3e754  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * packages/apps/PackageInstaller
-fc06280  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
+153744f  Merge tag 'android-8.1.0_r32' into o2  [xyyx]
 
  * packages/apps/Settings
-a9e92b1  Enable notifications led light by default [2/2]  [ezio84]
-cd15c43  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * packages/inputmethods/LatinIME
-ae93407  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * packages/providers/DownloadProvider
-1b057f0  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * packages/services/Telecomm
-9bcbc25  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
+004ea18  Enable notifications led light by default [2/2]  [ezio84]
 
  * packages/services/Telephony
-ba2a0db  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
+7e83848  Merge tag 'android-8.1.0_r32' into o2  [xyyx]
 
  * system/bt
-e932398  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
+bc77fff  Merge tag 'android-8.1.0_r32' into o2  [xyyx]
 
  * system/core
-b11d001  String16: remove integer overflows  [Steven Moreland]
-
- * system/extras
-4c69706  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * system/hwservicemanager
-9921b9a  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * system/media
-1231b6b  audio: Add helper method for PCM offload formats  [Steve Kondik]
-a7eb81a  audio: add support for extended audio features  [Mingming Yin]
-c32eab8  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * system/nfc
-33e16c5  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * system/sepolicy
-866d5a9  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * system/vold
-4eccb34  vold: Add path to cryptfs_hw  [Mrinal Ghosh]
-3a4f732  Merge tag 'android-8.1.0_r28' into o2  [xyyx]
-
- * vendor/codeaurora/telephony
-62213b8  Fix the concurrentHashMap null value error  [Ashit Sood]
-39b1eca  IMS-VT: Add config to control holding a video call  [Ravi Paluri]
-bd045cb  Reload carrier config when SUB record changed  [Mengjun Leng]
-27a85ca  IMS: Implement isConnected and isOpened API.  [Suchand Ghosh]
-
-====================
-     2018-05-07    
-====================
+b715c35  Allow firmware loading from ODM partition  [Alin Jerpelea]
+8648132  use std::hash instead of hashing byte by byte  [Sebastian Pop]
+da32663  cutils: Add support for ioprio cgroup  [Steve Kondik]
+d3e9fc4  init: don't reboot to bootloader on panic  [codeworkx]
+0d03b26  Add AIDs for RFS module  [Ritesh Harjani]
+5d050fa  Added missing AID which is causing setgroups to fail  [Chalapathi Bathala]
+ee4d2a1  unpackbootimg: stash EFIDroid changes  [M1cha]
+5c19004  mkbootimg: add 32K 64K and 128K pagesizes  [Michael Bestas]
+ec81df9  unpackbootimg: turn into a python script  [M1cha]
+5363233  Forward-port mkbootimg / unpackbootimg support  [Steve Kondik]
+af7e516  mkbootimg: add support for --dt  [M1cha]
+5af2021  Merge tag 'android-8.1.0_r32' into o2  [xyyx]
 
  * vendor/nitrogen
-6f03756  qcom_utils: update  [xyyx]
+d117845  bfqio: Add missing include header  [Ethan Chen]
+cfe431b  validus: Add support for BFQIO cgroups  [dianlujitao]
+c66a436  build MusicX  [Mrinal Ghosh]
+84a470b  build messaging app  [Mrinal Ghosh]
+bb81bbc  Add Z00L OTA  [Mrinal Ghosh]
+3329e8d  Revert "SmoothSpinners: Makes the loading "spinner" animation smoother"  [Shekhawat2]
 
 ====================
-     2018-05-06    
+     2018-06-10    
 ====================
 
- * device/xiaomi/kenzo
-197621b  [dnm]sepolicy: fix build  [xyyx]
-
- * device/xiaomi/msm8956-common
-97ed951  [dnm]sepolicy: fix build  [xyyx]
-bfdee7b  overlay: reduce adaptive brightness debounce durations  [Bill Chen]
-8f49bd6  overlay: Update Bluetooth  [xyyx]
-
 ====================
-     2018-05-05    
+     2018-06-09    
 ====================
 
- * device/xiaomi/kenzo
-b0bba3f  Prepare for Nitrogen  [xyyx]
-befcd22  I like Menu key  [xyyx]
-
- * device/xiaomi/msm8956-common
-19939f4  msm8956-common: Add support for vp9 decoding  [TheScarastic]
-80b6369  msm8956-common: sepolicy: address selinux denials  [Adarsh-MR]
-38eced5  msm8956-common: sepolicy: allow fingerprint to search storage  [khanfrd]
-30ced65  msm8956-common: Address fingerprint denials  [codeworkx]
-a2ef5f3  msm8956-common: selinux: label our custom fingerprint service  [codeworkx]
-dde72a5  msm8956-common: Grant netmgrd proper unix perms  [Jeff Vander Stoep]
-d887b72  msm8956-common: sepolicy: Add debug rules for rmt_storage  [Bruno Martins]
-c404a2e  msm8956-common: Grant rmt_storage proper unix perms  [Bruno Martins]
-e5be3ec  Use persist.radio.aosp_usr_pref_sel to fix default data after reboot  [xyyx]
-b595caa  msm8956: Build FM radio  [xyyx]
-72bd2a7  msm8956: Remove plus symbol  [xyyx]
-025fd24  overlay: update from old tree  [xyyx]
-
- * hardware/qcom/display-caf-msm8952
-a22cbb9  TARGET_QCOM_DISPLAY_VARIANT  [xyyx]
-18395d2  gralloc: allow forcing old pixel alignment  [Sultan Qasim Khan]
-8c2a793  Fix duplicate copy file rules  [Dan Willemsen]
-986f950  SkImageEncoder->SkEncodeImage  [Hal Canary]
-0f630fc  display: Use LOCAL_VENDOR_MODULE  [Naseer Ahmed]
-23edc08  display: Move all opensource modules to vendor partition  [Naseer Ahmed]
-b0dcf34  Don't build lights module if vendor supplies it  [Steve Kondik]
-
- * hardware/qcom/media-caf-msm8952
-e8da79a  Merge remote-tracking branch 'caf/LA.BR.1.3.7_rb1.9' into o2-8952  [xyyx]
-
- * packages/apps/NitrogenSettings
-f70c056  Update turkish  [razor84]
-
 ====================
-     2018-05-04    
+     2018-06-08    
 ====================
 
- * build/make
-2d9bb52  build: Add QCOM target-specific config  [Steve Kondik]
-
- * device/oneplus/oneplus3
-e2e59ed  Remove qcom utils call. Use global from build  [xyyx]
-
- * device/xiaomi/msm8956-common
-6744971  audio_policy: disable speaker_drc  [billchen1977@gmail.com]
-c0df2ba  overlay: Enable auto brightness by default and set screen timeout to 1 min  [xyyx]
-61f23b4  overlay: autobrightness tuning  [xyyx]
-2ea9ea1  Add XiaomiParts  [xyyx]
-5ed8b77  Use my post_boot config and use old boost framework  [xyyx]
-1e4497a  manifest: remove some hidl hals to fix boot * and remove perf  [xyyx]
-ba680f8  Prepare for Nitrogen * use Menu key * fix path and etc  [xyyx]
-a52d096  Revert "msm8956-common: Comment out sensorservice framework"  [xyyx]
-d19def0  Revert "rootdir: Refactor ramdisk"  [xyyx]
-7f9ed31  overlay: Enable ManualSubProvisioning  [xyyx]
-
- * kernel/oneplus/msm8996
-bd04dfd  Merge remote-tracking branch 'linux/linux-3.18.y' into o2  [xyyx]
-
- * kernel/xiaomi/kenzo
-a594b8a  prima: fix netlink  [xyyx]
-bd0b6db  arch: arm: boot: msm8956: early mount system  [TheScarastic]
-041265c  Revert "input: misc: goodix_fp: Change netlink group to 29, because it is conflit with wifi driver"  [xyyx]
-
- * packages/apps/Settings
-9075cf3  Themes: Settings: Expose storage icon colors  [SpiritCroc]
-
 ====================
-     2018-05-03    
+     2018-06-07    
 ====================
 
- * kernel/oneplus/msm8996
-6d05aad  Linux 3.18.108  [Greg Kroah-Hartman]
-36af635  Revert "perf tests: Decompress kernel module before objdump"  [Greg Kroah-Hartman]
-bdf3b71  libceph: validate con->state at the top of try_write()  [Ilya Dryomov]
-c829ba0  ASoC: fsl_esai: Fix divisor calculation failure at lower ratio  [Nicolin Chen]
-c55d649  scsi: sd: Defer spinning up drive while SANITIZE is in progress  [Mahesh Rajashekhara]
-b249736  kobject: don't use WARN for registration failures  [Dmitry Vyukov]
-2365af7  mtd: cfi: cmdset_0002: Do not allow read/write to suspend erase block.  [Joakim Tjernlund]
-6ad4bee  mtd: cfi: cmdset_0001: Workaround Micron Erase suspend bug.  [Joakim Tjernlund]
-51f8a19  mtd: cfi: cmdset_0001: Do not allow read/write to suspend erase block.  [Joakim Tjernlund]
-2616aad  ALSA: seq: oss: Fix unbalanced use lock for synth MIDI device  [Takashi Iwai]
-cd85ad1  ALSA: core: Report audio_tstamp in snd_pcm_sync_ptr  [David Henningsson]
-31473a9  tty: Use __GFP_NOFAIL for tty_ldisc_get()  [Tetsuo Handa]
-3f44674  tty: n_gsm: Fix DLCI handling for ADM mode if debug & 2 is not set  [Tony Lindgren]
-ffebfe6  tty: n_gsm: Fix long delays with control frame timeouts in ADM mode  [Tony Lindgren]
-d2bbfac  virtio_console: free buffers after reset  [Michael S. Tsirkin]
-86e4c09  virtio: add ability to iterate over vqs  [Michael S. Tsirkin]
-f59e0c3  ALSA: usb-audio: Skip broken EU on Dell dock USB-audio  [Takashi Iwai]
-9dfbd45  USB: Increment wakeup count on remote wakeup.  [Ravi Chandra Sadineni]
-5815b85  usb: core: Add quirk for HP v222w 16GB Mini  [Kamil Lulko]
-a67a3e7  USB: serial: cp210x: add ID for NI USB serial console  [Kyle Roeschley]
-915224d  USB: serial: ftdi_sio: use jtag quirk for Arrow USB Blaster  [Vasyl Vavrychuk]
-6246535  usbip: vhci_hcd: Fix usb device and sockfd leaks  [Shuah Khan]
-617d7a4  usbip: usbip_host: fix to hold parent lock for device_attach() calls  [Shuah Khan]
-2cb5c55  ext4: fix bitmap position validation  [Lukas Czerner]
-0643dbd  ext4: add validity checks for bitmap block numbers  [Theodore Ts'o]
-d0800f6  ext4: set h_journal if there is a failure starting a reserved handle  [Theodore Ts'o]
-
 ====================
-     2018-05-02    
+     2018-06-06    
 ====================
 
- * device/xiaomi/kenzo
-21fbbed  kenzo: We build ABC now  [Wight554]
-
- * device/xiaomi/msm8956-common
-f18dc4b  overlay: Add missing overlays for ABC  [Wight554]
-d1fdb9d  msm8956-common: camera: flashlight control via camera flash device  [Bill Chen]
-323bdcd  msm8956-common: camera: Add HAL support for flashlight  [Bill Chen]
-30c3629  msm8956-common: QCamera2: flashlight control via camera flash device  [cb]
-dffa592  msm8956-common: QCamera2: Prevent fail if flashlight control not used  [cb]
-945abca  msm8956-common: QCamera2: Add HAL support for flashlight  [cb]
-6a40794  msm8956-common: camera: Resolve the problem of memory leaks in exception flow  [Jinguang Dong]
-19b2cd1  msm8956-common: QCamera2: Control longshot via parameters  [cb]
-86f8e18  msm8956-common: Comment out sensorservice framework  [Wight554]
-9089465  msm8956-common: Use updated GCC toolchain  [Wight554]
-a3c867b  msm8956-common: Link cryptfs_hw to device tree  [Wight554]
-7d71619  msm8956-common: Import cryptfs_hw from Lineage OS  [Wight554]
-33fd2d5  msm8998-common: include all blueprint modules  [Demon Singur]
-196ba61  msm8956-common: Add aw2013 lights HIDL HAL implementation  [mikeNG]
-9428aa4  rootdir: Refactor ramdisk  [Wight554]
-f881e6a  doze: Import missing resources  [Wight554]
-be81a92  msm8956-common: Import thermal-engine config  [Rk779]
-bb79acb  msm8956-common: Add VR HAL from CAF  [Rk779]
-7e29d48  msm8956-common: Add thermal HAL from CAF  [Rk779]
-dc6ad26  msm8956-common: Add thermal client library header  [Rk779]
-9fdc7bc  gps: Partially apply some CAF changes  [Wight554]
-9629878  msm8956-common: Let's build ABC  [Wight554]
-
- * kernel/oneplus/msm8996
-68adc94  Merge remote-tracking branch 'linux/linux-3.18.y' into o2  [xyyx]
+====================
+     2018-06-05    
+====================
 
